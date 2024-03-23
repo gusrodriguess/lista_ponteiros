@@ -1,4 +1,4 @@
 # Lista de Ponteiros
-### Intregantes:
+### Integrantes:
 * Kaiky Hanry Alencar Fernandes
 * Luiz Gustavo Bezerra Rodrigues
