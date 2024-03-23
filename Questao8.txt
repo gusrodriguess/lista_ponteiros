@@ -1,0 +1,4 @@
+# Questão 8 
+
+--> O primeiro programa retorna o conteúdo do vetor vet;
+--> No segundo programa, há o retorno da posição de memória que está cada elemento do vetor vet.

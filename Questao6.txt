@@ -1,0 +1,3 @@
+# Questão 6
+
+--> Pulo + 2; Pois a questão pede a referencia do valor então com essa expressão chegamos ao espaço da memória que está o terceiro elemento do vetor
