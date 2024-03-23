@@ -1,4 +1,4 @@
 # Lista de Ponteiros
-### Integrantes:
+### Componentes:
 * Kaiky Hanry Alencar Fernandes
 * Luiz Gustavo Bezerra Rodrigues
