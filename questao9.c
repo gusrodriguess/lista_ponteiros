@@ -26,7 +26,7 @@ main(){
           int x;
       };
       
-      main() {
+      int main() {
           struct teste pessoa, *pc;
           pc = &pessoa;
           pc->x = 10;
