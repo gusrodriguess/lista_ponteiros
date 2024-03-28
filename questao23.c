@@ -9,6 +9,8 @@ em relação a funcao1 */
 /* Falsa, a funcao2 apresenta o uso de recursividade, que é a chamada da função dentro da própria
 função. A função que implementa uma estrategia iterativa é a funcao1, visto que possui um for na funcao. */
 
+// Apenas a afirmação I é verdadeira!!!
+
 #include <stdio.h>
 #define TAM 10
 
