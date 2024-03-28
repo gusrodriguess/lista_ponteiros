@@ -12,7 +12,7 @@ int RandomV(int min, int max)
     return k;
 }
 
-//Declaracao da funcao comparar, que ser· usada no qsort()
+//Declaracao da funcao comparar, que ser√° usada no qsort()
 int comparar(const void *a, const void *b) {
 
     if (*((float *)a) < *((float *)b))
@@ -24,8 +24,8 @@ int comparar(const void *a, const void *b) {
 }
 
 void ordenar(int *x, int n) {
-    /* OrdenaÁ„o usando o conceito que qnd tem um incremento no
-    endereÁo pula para o proximo valor do vetor*/
+    /* Ordena√ß√£o usando o conceito que qnd tem um incremento no
+    endere√ßo pula para o proximo valor do vetor*/
     float aux;
     for(int i = 0; i < n - 1; i++) {
         for(int j = 0; j < n - i - 1; j++) {
@@ -39,7 +39,7 @@ void ordenar(int *x, int n) {
 }
 
 int main() {
-    // AlocaÁ„o da memÛria
+    // Aloca√ß√£o da mem√≥ria
     float *x, *y;
     x = malloc(TAM * sizeof(float));
     y = malloc(TAM * sizeof(float));
@@ -89,5 +89,7 @@ int main() {
 Tempo de execucao qsort: 0.000102;
 Tempo de execucao ordenar: 0.000232;
 
---> Pelo tempo de execuÁ„o, podemos perceber uma diferenca entre as funcoes, mostrando que a utilizacao da qsort eh mais rapida, logo mais recomendada;
+--> Pelo tempo de execu√ß√£o, podemos perceber uma diferenca entre as funcoes, mostrando que a utilizacao da qsort eh mais rapida, logo mais recomendada;
+
+Link da pesquisa: https://acervolima.com/meca-o-tempo-de-execucao-com-alta-precisao-em-c-c/
 */
