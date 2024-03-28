@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 // Compara os valores armazenados em a e b
 int compara (int *a, int *b) {
