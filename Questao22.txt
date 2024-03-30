@@ -1,0 +1,72 @@
+Questao 22
+
+#include <stdio.h>
+int main(){
+  int a, b;
+  int x, y, z;
+  scanf("%d %d", &a, &b);
+
+	// a=10; b=1;
+
+  x = a; y = b; z = a + b;
+
+	// x=10; y=1; z=11;
+
+  while (a) {
+  x = x | b;
+  y = y ^ a;
+  z = z & (a+b);
+  a = a >> 1;
+  b = b << 1;
+  }
+  printf ("%d %d %d\n", x, y, z);
+  return 0;
+}
+
+a = 1010 binario
+b = 1 binario
+a+b = 1011
+z = 11 = 1011
+
+#1° Iteracao
+x = 1011
+y = 1011
+z = 1011
+
+a = 101
+b = 10 
+=========
+a+b = 7 = 111
+
+#2 Iteracao
+x = 1011
+y = 1110
+z = 11
+
+a = 10
+b = 100
+=========
+a+b = 6 = 110
+
+#3 Iteracao
+x = 1111
+y = 1100
+z = 10
+
+a = 1
+b = 1000
+=========
+a+b = 17 = 1001
+
+#4 Iteracao
+x = 1111
+y = 1101
+z = 0
+
+a = 0
+b = 10000
+======== 
+
+X = 15; Y = 13; Z = 0;
+
+Saida do programa: 15 13 0
