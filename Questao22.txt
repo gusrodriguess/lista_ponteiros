@@ -23,6 +23,7 @@ int main(){
   return 0;
 }
 
+/*
 a = 1010 binario
 b = 1 binario
 a+b = 1011
@@ -70,3 +71,4 @@ b = 10000
 X = 15; Y = 13; Z = 0;
 
 Saida do programa: 15 13 0
+*/
