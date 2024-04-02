@@ -1,0 +1,5 @@
+Questao10
+
+#QUESTAO 10 
+
+A saida sera 5;
