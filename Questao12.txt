@@ -3,10 +3,10 @@ Questao12
 #QUESTAO 12
 
 aloha[2] = value 	--> Comando valido;
-scanf("%f", &aloha); 	--> Comando invalido;
+scanf("%f", &aloha); 	--> Comando valido;
 aloha = "value"; 	--> Comando invalido;
 printf("%f", aloha)	--> Comando valido;
 coisas[4][4]=aloha[3]	--> Comando valido;
 coisas[5] = aloha; 	--> Comando invalido;
-pf = value;		--> Comando valido;
+pf = value;		--> Comando invalido;
 pf = aloha;		--> Comando valido; 
